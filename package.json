@@ -1,0 +1,17 @@
+{
+  "name": "planet-server",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Return the Altitude and Azimuth of planets in the solar system",
+  "repository": "https://github.com/thingsinjars/planets-api.git",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Simon Madine",
+  "dependencies": {
+    "coordinate-tz": "^0.1.2",
+    "restify": "^7.6.0",
+    "zoneinfo": "^0.1.8"
+  }
+}
